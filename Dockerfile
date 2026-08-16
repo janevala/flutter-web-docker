@@ -16,7 +16,6 @@ RUN apt-get update \
         unzip \
         zip \
         xz-utils \
-        libglu1-mesa \
         ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
